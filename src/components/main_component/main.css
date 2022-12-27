@@ -1,0 +1,62 @@
+.main {
+  color: var(--text-color);
+  text-align: center;
+  margin: 0px 20px;
+}
+.main h1 {
+    color: var(--purple-color);
+}
+.main h2{
+    color: grey;
+}
+
+.cards {
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 40px;
+}
+.card {
+  background-color: var(--black-color);
+  padding: 0px 40px ;
+  margin: 20px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 0.01px solid var(--text-color);
+  box-shadow: 2px 2px 10px rgba(109, 76, 239, 0.562);
+  border-radius: 8px;
+
+}
+.cards span {
+    color: var(--purple-color)
+}
+
+select {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    background-color: var(--purple-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 4px;
+}
+option {
+    text-align: center;
+}
+.car :hover {
+    background-color: var(--text-color);
+    cursor: pointer;
+    color: var(--black-color);
+}
+.car {
+    text-align: center;
+}
+.cost {
+    color: var(--text-color);
+    text-align: center;
+}
